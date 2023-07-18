@@ -1,0 +1,91 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  background: #fb7413; }
+
+.ask {
+  position: relative;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  max-width: 450px; }
+  .ask__wrapper {
+    text-align: left;
+    padding: 30px;
+    background-color: #121417;
+    border-radius: 20px; }
+  .ask__icon {
+    display: inline-block;
+    background-color: #252d37;
+    border-radius: 50px;
+    padding: 10px 12px 8px 12px; }
+  .ask__title {
+    color: #ffffff; }
+  .ask__description {
+    color: #959eac; }
+  .ask__list {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .ask__item {
+    background-color: #252d37;
+    border-radius: 50px;
+    padding: 20px 25px 20px 25px;
+    cursor: pointer; }
+    .ask__item span {
+      color: #959eac; }
+    .ask__item:hover {
+      background-color: #fb7413; }
+      .ask__item:hover span {
+        color: #ffffff; }
+    .ask__item.selected {
+      background-color: #959eac; }
+      .ask__item.selected span {
+        color: #ffffff; }
+  .ask__btn {
+    background-color: #fb7413;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 0;
+    cursor: pointer; }
+    .ask__btn:active {
+      background-color: #ffffff;
+      color: #fb7413; }
+
+.ty {
+  position: relative;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  max-width: 450px; }
+  .ty__wrapper {
+    padding: 30px;
+    background-color: #121417;
+    border-radius: 20px; }
+  .ty__icon {
+    display: inline-block;
+    background-color: #252d37;
+    border-radius: 50px;
+    padding: 10px 12px 8px 12px; }
+  .ty__value {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #252d37;
+    border-radius: 20px;
+    padding: 6px 6px;
+    color: #fb7413;
+    font-size: 14px; }
+  .ty__title {
+    color: #ffffff; }
+  .ty__description {
+    color: #959eac; }
